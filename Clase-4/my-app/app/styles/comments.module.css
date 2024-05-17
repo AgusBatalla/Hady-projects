@@ -1,0 +1,102 @@
+.maincrud {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+    background: linear-gradient(30deg, #333, #000);
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-acuarela-celebracion-dia-mundial-libro_23-2150230426.jpg?size=626&ext=jpg&ga=GA1.1.672697106.1714521600&semt=ais');
+    padding-bottom: 20px;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    flex-wrap: wrap;
+}
+
+.title {
+    width: 100%;
+    padding: 20px 0;
+    font-size: 2rem;
+    text-align: center; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    background-color: transparent; /* Ajusta el color de fondo del título */
+    color: #000000; /* Ajusta el color del texto del título */
+}
+
+.formContainer {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.formone {
+    width: 100%;
+}
+
+.input {
+    width: calc(100% - 24px);
+    margin: 10px auto;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    width: calc(100% - 24px);
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: royalblue;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 300px; /* Establecemos un ancho fijo para cada tarjeta */
+    height: 200px; /* Establecemos una altura fija para cada tarjeta */
+    background: #eeeded;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 10px; 
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.cardContent {
+    padding: 20px;
+}
+
+.deleteButton {
+    position: absolute; /* Posicionamos el botón de forma absoluta dentro de la tarjeta */
+    bottom: 10px; /* Lo ubicamos en la parte inferior de la tarjeta */
+    right: 10px; /* Lo ubicamos en el lado derecho de la tarjeta */
+    font-size: 1rem; /* Tamaño de fuente del botón */
+    background-color: #447fff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Quitamos el borde del botón */
+    border-radius: 5px; /* Añadimos bordes redondeados */
+    padding: 5px 10px; /* Ajustamos el relleno del botón */
+    cursor: pointer; /* Cambiamos el cursor al pasar sobre el botón */
+}
