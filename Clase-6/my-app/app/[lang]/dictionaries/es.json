@@ -1,0 +1,22 @@
+{
+  "title": "Logo",
+  "products": {
+    "catalog": "Mi Motocicleta",
+    "productOne": {
+      "altText": "Un icono de lápiz",
+      "title": "Puntos Positivos",
+      "description": "Mis puntos a favor de comprar esta motocicleta."
+    },
+    "productTwo": {
+      "altText": "Un icono de lápiz",
+      "title": "Puntos Negativos",
+      "description": "Mis puntos negativos de esta motocicleta."
+    }
+  },
+  "places": {
+    "description": "Reseña"
+  },
+  "footer": {
+    "allRights": "Todos los derechos reservados"
+  }
+}

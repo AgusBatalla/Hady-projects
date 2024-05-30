@@ -1,0 +1,22 @@
+{
+  "title": "The Logo",
+  "products": {
+    "catalog": "My motorcycle",
+    "productOne": {
+      "altText": "A pencil icon",
+      "title": "Positive Points",
+      "description": "My points in favor of buying this motorcycle."
+    },
+    "productTwo": {
+      "altText": "A pencil icon",
+      "title": "Negative Points",
+      "description": "My points against buying this motorcycle."
+    }
+  },
+  "places": {
+    "tittle": "Review"
+  },
+  "footer": {
+    "allRights": "All rights reserved"
+  }
+}
