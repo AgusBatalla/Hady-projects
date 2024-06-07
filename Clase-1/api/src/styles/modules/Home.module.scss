@@ -1,0 +1,24 @@
+.home {
+  height: calc(100vh - 66px);
+  overflow-x: hidden;
+  background-image: url('./limitar-moto-a2-ducati-scrambler-portada.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  color: white; 
+  
+}
+
+.titulo-inicio {
+  font-size: 3rem; 
+  font-weight: bold; 
+  margin-bottom: 20px; 
+}
+
+
+
+

@@ -1,0 +1,62 @@
+@import "@styles/variables";
+
+.details {
+  font-size: 0.65rem;
+  a {
+    font-size: 0.65rem;
+  }
+}
+.alive {
+  color: darken($color: $ram_success, $amount: 25);
+}
+
+.dead {
+  color: $ram_danger;
+}
+
+.unknown {
+  color: $ram_warning;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-experiencia {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-experiencia-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.card-experiencia-body {
+  margin-bottom: 1rem;
+}
+
+.card-experiencia-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
